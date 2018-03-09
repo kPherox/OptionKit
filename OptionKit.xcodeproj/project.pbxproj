@@ -106,7 +106,8 @@
 				7D50B47F19D3A46600743806 /* CoreTests.swift */,
 				7D50B47D19D3A46600743806 /* Supporting Files */,
 			);
-			path = OptionKitTests;
+			name = OptionKitTests;
+			path = Tests/OptionKitTests;
 			sourceTree = "<group>";
 		};
 		7D50B47D19D3A46600743806 /* Supporting Files */ = {
@@ -423,7 +424,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = OptionKitTests/Info.plist;
+				INFOPLIST_FILE = Tests/OptionKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.nomothetis.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +442,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = OptionKitTests/Info.plist;
+				INFOPLIST_FILE = Tests/OptionKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.nomothetis.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
