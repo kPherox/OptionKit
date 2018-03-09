@@ -88,7 +88,8 @@
 				7D50B47019D3A46600743806 /* Supporting Files */,
 				7D50B48919D3A48500743806 /* Core.swift */,
 			);
-			path = OptionKit;
+			name = OptionKit;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		7D50B47019D3A46600743806 /* Supporting Files */ = {
@@ -369,7 +370,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = 0;
-				INFOPLIST_FILE = OptionKit/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.nomothetis.$(PRODUCT_NAME:rfc1034identifier)";
@@ -397,7 +398,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = 0;
-				INFOPLIST_FILE = OptionKit/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.nomothetis.$(PRODUCT_NAME:rfc1034identifier)";
