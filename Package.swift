@@ -5,6 +5,11 @@ import PackageDescription
 
 let package = Package(
     name: "OptionKit",
+    products: [
+        .library(
+            name: "OptionKit",
+            targets: ["OptionKit"]),
+    ],
     targets: [
         .target(
             name: "OptionKit",
